@@ -8,3 +8,9 @@ Clone repo and install requirements.txt in a Python>=3.7.0 environment, includin
 ```
 !git clone https://github.com/ultralytics/yolov5  # clone
 ```
+**install [dependencies](https://github.com/ultralytics/yolov5/blob/master/requirements.txt)**
+
+```Python
+%cd yolov5
+%pip install -qr requirements.txt  # install
+```
