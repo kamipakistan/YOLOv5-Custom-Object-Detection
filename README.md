@@ -14,3 +14,10 @@ Clone repo and install requirements.txt in a Python>=3.7.0 environment, includin
 %cd yolov5
 %pip install -qr requirements.txt  # install
 ```
+**check PyTorch and GPU**
+
+```Python
+import torch
+import utils
+display = utils.notebook_init()  # checks
+```
